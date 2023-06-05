@@ -1,0 +1,17 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/ziperr/Code/OS_experiment/5th/FSdemo",
+            "binaryPath": "/home/ziperr/Code/OS_experiment/5th/FSdemo/main",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "*.json": "json",
+        "sfs_header.h": "c",
+        "streambuf": "c",
+        "sfs_api.h": "c",
+        "*.tcc": "c"
+    }
+}

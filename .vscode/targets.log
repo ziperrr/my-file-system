@@ -1,0 +1,363 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Jun  5 19:29:33 2023
+
+# Variables
+
+# environment
+LC_ALL = C
+# environment
+PULSE_SERVER = unix:/mnt/wslg/PulseServer
+# environment
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
+# environment
+VSCODE_CWD = /mnt/d/solfwares/vscode/Microsoft VS Code
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/ziperr/Code/OS_experiment/5th/FSdemo
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+OLDPWD = /mnt/d/solfwares/vscode/Microsoft VS Code
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+LANG = C
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/ziperr/Code/OS_experiment/5th/FSdemo
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+WSL2_GUI_APPS_ENABLED = 1
+# environment
+WAYLAND_DISPLAY = wayland-0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# environment
+CONDA_SHLVL = 1
+# automatic
+@F = $(notdir $@)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+CONDA_PYTHON_EXE = /home/ziperr/solfwares/homeziperrsolfwaresminiconda3miniconda3/bin/python
+# automatic
+*F = $(notdir $*)
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","osLocale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"07d862891cffead1799ff1d0d31a0385.zh-cn","_translationsConfigFile":"/home/ziperr/.vscode-server/data/clp/07d862891cffead1799ff1d0d31a0385.zh-cn/tcf.json","_cacheRoot":"/home/ziperr/.vscode-server/data/clp/07d862891cffead1799ff1d0d31a0385.zh-cn","_resolvedLanguagePackCoreLocation":"/home/ziperr/.vscode-server/data/clp/07d862891cffead1799ff1d0d31a0385.zh-cn/b3e4e68a0bc097f0ae7907b217c1119af9e03435","_corruptedFile":"/home/ziperr/.vscode-server/data/clp/07d862891cffead1799ff1d0d31a0385.zh-cn/corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+CONDA_PREFIX = /home/ziperr/solfwares/homeziperrsolfwaresminiconda3miniconda3
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/ziperr/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/ziperr/solfwares/homeziperrsolfwaresminiconda3miniconda3/bin:/home/ziperr/solfwares/homeziperrsolfwaresminiconda3miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/d/solfwares/matlab/matlab2022a_solfware/runtime/win64:/mnt/d/solfwares/matlab/matlab2022a_solfware/bin:/mnt/d/solfwares/xshell:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/dotnet:/mnt/c/Users/ziper12138/AppData/Local/Programs/Python/Python38/Scripts:/mnt/c/Users/ziper12138/AppData/Local/Programs/Python/Python38:/mnt/c/Users/ziper12138/AppData/Local/Programs/Python/Python311/Scripts:/mnt/c/Users/ziper12138/AppData/Local/Programs/Python/Python311:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin:/mnt/c/Users/ziper12138/AppData/Local/Microsoft/WindowsApps:/mnt/d/solfwares/vscode/Microsoft VS Code/bin:/mnt/d/solfwares/pycharm/PyCharm Community Edition 2022.2.5/bin:/snap/bin
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+NAME = DESKTOP-9SP31O2
+# environment
+HOSTTYPE = x86_64
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+WSL_INTEROP = /run/WSL/571_interop
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+LOGNAME = ziperr
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/ziper12138/.vscode/extensions/ms-vscode-remote.remote-wsl-0.78.9
+# makefile
+.DEFAULT_GOAL := all
+# environment
+DISPLAY = :0
+# environment
+USER = ziperr
+# default
+MAKE_VERSION := 4.3
+# environment
+_ = /home/ziperr/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node
+# environment
+XDG_RUNTIME_DIR = /run/user/1000/
+# environment
+_CE_M = 
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-bad7044a-b617-4745-adb1-061cbefe221f.sock
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/ziperr
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TERM = xterm-256color
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+WSL_DISTRO_NAME = Ubuntu
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+CONDA_EXE = /home/ziperr/solfwares/homeziperrsolfwaresminiconda3miniconda3/bin/conda
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=78/1024=8%, Rehash=0, Collisions=1/111=1%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2080, inode 4587): 25 files, no impossibilities.
+
+# 25 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+sfs_api.o: sfs_api.c sfs_api.h sfs_header.h
+#  Implicit rule search has not been done.
+#  Last modified 2023-06-05 17:27:35.052496031
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 8):
+	gcc -c -g sfs_api.c 
+
+# Not a target:
+disk_emu.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-06-03 13:47:04.643686836
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 14):
+	rm  *.o
+	
+
+# Not a target:
+sfs_api.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-06-03 15:30:43.99319486
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+sfs_header.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-06-03 14:53:28.313378605
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+sfs_util.h:
+#  Implicit rule search has been done.
+#  Last modified 2023-06-03 15:04:20.863328865
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+sfs_util.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-06-05 17:27:30.542496234
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+disk_emu.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-24 01:23:06
+#  File has been updated.
+#  Successfully updated.
+
+all: main.o sfs_api.o usr_api.o disk_emu.o sfs_util.o usr_api.o
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := main.o
+# automatic
+# + := main.o sfs_api.o usr_api.o disk_emu.o sfs_util.o usr_api.o
+# automatic
+# % := 
+# automatic
+# ^ := main.o sfs_api.o usr_api.o disk_emu.o sfs_util.o
+# automatic
+# ? := main.o sfs_api.o usr_api.o disk_emu.o sfs_util.o
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'makefile', line 2):
+ 
+	gcc -g main.o usr_api.o sfs_api.o sfs_util.o disk_emu.o -o main
+
+disk_emu.o: disk_emu.c disk_emu.h
+#  Implicit rule search has not been done.
+#  Last modified 2023-06-03 13:47:08.23368664
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 12):
+	gcc -c -g disk_emu.c
+
+# Not a target:
+main.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-06-05 17:27:29.652500085
+#  File has been updated.
+#  Successfully updated.
+
+main.o: main.c sfs_api.h
+#  Implicit rule search has not been done.
+#  Last modified 2023-06-05 17:27:35.022496031
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 4):
+	gcc -c -g main.c
+
+sfs_util.o: sfs_util.c sfs_util.h
+#  Implicit rule search has not been done.
+#  Last modified 2023-06-05 17:27:35.102496024
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 10):
+	gcc -c -g sfs_util.c
+
+usr_api.o: usr_api.c sfs_api.h
+#  Implicit rule search has not been done.
+#  Last modified 2023-06-05 18:20:15.666895346
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 6):
+	gcc -c -g usr_api.c
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-06-03 01:38:03.47794243
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+usr_api.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-06-05 17:46:24.892536111
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+sfs_api.c:
+#  Implicit rule search has been done.
+#  Last modified 2023-06-05 17:27:28.842503587
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=19/1024=2%, Rehash=0, Collisions=0/53=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 31 / storage = 283 B / avg = 9 B
+# current buf: size = 8162 B / used = 283 B / count = 31 / avg = 9 B
+
+# strcache performance: lookups = 66 / hit rate = 53%
+# hash-table stats:
+# Load=31/8192=0%, Rehash=0, Collisions=0/66=0%
+# Finished Make data base on Mon Jun  5 19:29:33 2023
+
+ 

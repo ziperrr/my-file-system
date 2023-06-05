@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ziperr/Code/OS_experiment/5th/FSdemo'
+gcc -c -g main.c
+ 
+gcc -c -g sfs_api.c 
+gcc -c -g usr_api.c
+gcc -c -g disk_emu.c
+gcc -c -g sfs_util.c
+gcc -g main.o usr_api.o sfs_api.o sfs_util.o disk_emu.o -o main
+make: Leaving directory '/home/ziperr/Code/OS_experiment/5th/FSdemo'
+ 
