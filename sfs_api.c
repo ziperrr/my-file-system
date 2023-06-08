@@ -405,6 +405,8 @@ void sfs_rm(int CurrentDir)
             sfs_rm(iter);
             iter = tmp;
         }
+        root.table[CurrentDir].type = File;
+        sfs_rm(CurrentDir);
     }
 }
 // 找到返回fileID,没找到返回-1
